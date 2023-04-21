@@ -1,0 +1,27 @@
+body,
+p {
+  font-family: "DM Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "DM Serif Display", serif;
+}
+
+nav {
+  font-family: "DM Sans", sans-serif;
+  color: #202020;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited {
+  background-color: #f37124 !important;
+  border-color: #f37124 !important;
+  font-family: "DM Sans", sans-serif;
+}
