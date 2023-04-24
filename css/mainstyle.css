@@ -1,8 +1,14 @@
-body, p {
+body,
+p {
   font-family: "DM Sans", sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "DM Serif Display", serif;
   font-weight: 400;
   line-height: 1.2;
@@ -20,7 +26,9 @@ nav {
   border-color: #f37124 !important;
   font-family: "DM Sans", sans-serif;
 }
-.btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited {
   background-color: #f37124 !important;
   border-color: #f37124 !important;
 }
@@ -39,7 +47,8 @@ p a {
   text-decoration: none;
   transition: border-bottom-color 0.12s ease-in;
 }
-p a:focus, p a:hover {
+p a:focus,
+p a:hover {
   border-bottom-color: transparent;
   outline: 0;
 }
@@ -82,4 +91,4 @@ h6 {
   #intro-example {
     height: 600px;
   }
-}/*# sourceMappingURL=mainstyle.css.map */
+} /*# sourceMappingURL=mainstyle.css.map */
