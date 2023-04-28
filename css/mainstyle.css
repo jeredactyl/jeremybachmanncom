@@ -17,13 +17,13 @@ nav {
 }
 
 .btn-primary {
-  background-color: #f37124 !important;
-  border-color: #f37124 !important;
+  background-color: #7A5818 !important;
+  border-color: #7A5818 !important;
   font-family: "DM Sans", sans-serif;
 }
 .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
-  background-color: #f37124 !important;
-  border-color: #f37124 !important;
+  background-color: #7A5818 !important;
+  border-color: #7A5818 !important;
 }
 
 p {
@@ -34,8 +34,8 @@ p {
   margin-bottom: 0;
 }
 p a {
-  border-bottom: 1px solid #00857f;
-  color: #00857f;
+  border-bottom: 1px solid #4D9BFF;
+  color: #4D9BFF;
   font-weight: 700;
   text-decoration: none;
   transition: border-bottom-color 0.12s ease-in;
