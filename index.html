@@ -1,6 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>
+      Jeremy Bachmann - Get More from your Travel, Shopping, and Credit Cards
+    </title>
+
+    <meta
+      name="description"
+      content="Jeremy Bachmann offers advice on credit cards, travel, shopping, and more."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="all,follow" />
     <!-- Google tag (gtag.js) a-->
     <script
       async
@@ -15,24 +28,27 @@
 
       gtag("config", "G-F0MZT2S6D0");
     </script>
+
+    <!-- Main Stylesheet -->
     <link rel="stylesheet" href="css/mainstyle.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Google fonts - Cabin -->
     <link
       href="https://fonts.googleapis.com/css2?family=Cabin:wght@700&display=swap"
       rel="stylesheet"
     />
 
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>
-      Jeremy Bachmann - Get More from your Travel, Shopping, and Credit Cards
-    </title>
-    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
-    <meta
-      name="description"
-      content="Jeremy Bachmann offers advice on credit cards, travel, shopping, and more."
+    <!-- swiper-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
     />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -41,80 +57,80 @@
     />
   </head>
 
-  <body class="container">
-    <!-- A grey horizontal navbar that becomes vertical on small screens -->
-    <nav class="navbar navbar-expand-sm">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="/index.html">
-          <img
-            src="images/twj_logo.png"
-            alt="Travels with Jeremy logo"
-            style="width: 150px"
-          />
-        </a>
-        <!-- Links -->
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="creditcards.html">CREDIT CARDS</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="gear.html">GEAR</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="apps-and-sites.html">APPS AND SITES</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="shopping-hacks.html">SHOPPING HACKS</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="traveling.html">TRAVELING</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">ABOUT ME</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-
-    <!-- end of nav -->
-
-    <!-- intro section -->
-    <div class="container">
-      <figure>
-        <blockquote class="blockquote">
-          <p>
-            You're sick of hanging around, you'd like to travel . . . Get out of
-            the door, light out and look all around
-          </p>
-        </blockquote>
-        <figcaption class="blockquote-footer">
-          The Grateful Dead <cite title="Source Title">Truckin'</cite>
-        </figcaption>
-      </figure>
-    </div>
-
-    <div
-      id="intro-example"
-      class="p-5 text-left bg-image"
-      style="background-image: url('images/jumbotron2.jpg')"
-    >
-      <div
-        class="mask"
-        style="background-color: rgba(255, 255, 255, 0.75); padding: 1em"
+  <body style="padding-top: 72px">
+    <header class="header">
+      <!-- A grey horizontal navbar that becomes vertical on small screens -->
+      <nav
+        class="navbar navbar-expand-lg fixed-top shadow navbar-light bg-white"
       >
-        <div class="d-flex justify-content-center align-items-center h-100">
-          <div class="text-black">
-            <h1 class="mb-3">Maximize Your Travel</h1>
-            <p class="mb-4">
-              See more of the world. Traveling is for everyone! Learn how to
-              save money, time, and stress to get the most out of your
-              adventures.
-            </p>
+        <div class="container-fluid">
+          <div class="d-flex align-items-center">
+            <a class="navbar-brand py-1" href="index.html"
+              ><img
+                src="images/twj_logo.png"
+                alt="Travels with Jeremy blog"
+                style="width: 140px"
+            /></a>
+            <!-- Links -->
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="creditcards.html">CREDIT CARDS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="gear.html">GEAR</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="apps-and-sites.html"
+                  >APPS AND SITES</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="shopping-hacks.html"
+                  >SHOPPING HACKS</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="traveling.html">TRAVELING</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">ABOUT ME</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- end of nav -->
+    </header>
+    <!-- intro section -->
+
+    <section class="hero-home">
+      <div class="swiper-container hero-slider">
+        <div class="swiper-wrapper dark-overlay">
+          <div
+            class="swiper-slide"
+            style="background-image: url(images/gondar.png)"
+          ></div>
+        </div>
+      </div>
+      <div class="container py-6 py-md-7 text-white z-index-20">
+        <div class="row">
+          <div class="col-xl-10">
+            <div class="text-center text-lg-start">
+              <p
+                class="subtitle letter-spacing-4 mb-2 text-secondary text-shadow"
+              >
+                See the world
+              </p>
+              <h1 class="display-3 fw-bold text-shadow">
+                Maximize your travel
+              </h1>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <br />
+    </section>
+
     <!-- end of intro -->
 
     <!--card section-->
