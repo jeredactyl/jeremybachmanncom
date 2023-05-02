@@ -1,15 +1,9 @@
-body,
-p {
+body, p {
   font-family: "Arial", sans-serif;
 }
 
 /* Height for devices larger than 992px */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   font-family: "Cabin", serif;
   line-height: 1.2;
   margin-bottom: 0;
@@ -18,19 +12,17 @@ h6 {
 
 nav {
   font-family: "Arial", sans-serif;
-  color: #202020;
+  color: #000000;
 }
 
 .btn-primary {
-  background-color: #7a5818 !important;
-  border-color: #7a5818 !important;
+  background-color: #094259 !important;
+  border-color: #094259 !important;
   font-family: "Arial", sans-serif;
 }
-.btn-primary:hover,
-.btn-primary:active,
-.btn-primary:visited {
-  background-color: #7a5818 !important;
-  border-color: #7a5818 !important;
+.btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+  background-color: #094259 !important;
+  border-color: #094259 !important;
 }
 
 p {
@@ -41,13 +33,12 @@ p {
   margin-bottom: 0;
 }
 p a {
-  border-bottom: 1px solid #4d9bff;
-  color: #4d9bff;
+  border-bottom: 1px solid #19a9d1;
+  color: #19a9d1;
   text-decoration: none;
   transition: border-bottom-color 0.12s ease-in;
 }
-p a:focus,
-p a:hover {
+p a:focus, p a:hover {
   border-bottom-color: transparent;
   outline: 0;
 }
@@ -89,4 +80,4 @@ h6 {
   #intro-example {
     height: 600px;
   }
-} /*# sourceMappingURL=mainstyle.css.map */
+}/*# sourceMappingURL=mainstyle.css.map */
